@@ -1,0 +1,60 @@
+.footer{
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.redes a{
+    padding: 0px 1.5rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.footer strong {
+    width: 15rem;
+    text-align: end;
+}
+
+.footer strong::first-line {
+    color: black;
+}
+
+@media only screen and (min-width:600px) and (max-width: 950px) {
+    .footer {
+        font-size: 1.5rem;
+    }
+
+    .footer img {
+        width: 5rem;
+    }
+
+    .redes a {
+        padding: 0 0.5rem;
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width:599px){
+
+    .footer {
+        font-size: 1rem;
+    }
+
+    .redes a {
+        padding: 0 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .footer strong {
+        width: 10rem;
+    }
+}
